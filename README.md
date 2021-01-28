@@ -1,8 +1,15 @@
 # Applying Swarm intelligence to demand Responsive Transportation Services
-A Research - Applying swarm intelligence for public transportation, NetLogo model and additional proprietary tools such as map drawer and NetLogo extension for parsing input files.
+
+This repository holds the source code for a research project that investigates how we can use 
+biomimetic self organizing principles to create a self organizing public transportation system.
+
+The source code consists of a NetLogo model, a NetLogo plugin and a Java application for importing 
+and manipulating transportation and city road data.
 
 # Dataset
-The datasets for cities roads graph and transportation data was taken from this repository: https://github.com/bstabler/TransportationNetworks, 
+
+The datasets for cities roads graph and transportation data was taken from this 
+repository: https://github.com/bstabler/TransportationNetworks, 
 which is an update to Dr. Hillel Bar-Gera's TNTP project.
 
 Ideally, for our research needs, each city folder contains the following files:
@@ -10,7 +17,6 @@ Ideally, for our research needs, each city folder contains the following files:
 * `<City>_trips.tntp` - contains a sampled origin-destination data.
 * `<City>_node.tntp` - contains the bus stations list (each can be either an origin or/and a destination).
 * `<City>_net.tntp` - contains the list of existing roads between those nodes (from the node.tntp file).
-
 
 # The NetLogo Model
 ![Screenshot/NetLogoModel.png](https://github.com/roiedanino/SwarmPubTran/blob/master/Screenshots/Net%20Logo%20Model.png)
